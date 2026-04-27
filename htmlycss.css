@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+.enlace-limpio {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace-limpio:hover {
+    color: #e74c3c;
+}
+
+.lista-custom {
+    list-style-image: url('https://cdn-icons-png.flaticon.com/16/5277/5277520.png');
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    background-color: #333;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+.caja-animada {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.4s ease; 
+}
+
+.caja-animada:hover {
+    background-color: #9b59b6;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
